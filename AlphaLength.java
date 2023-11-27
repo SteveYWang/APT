@@ -1,7 +1,3 @@
-/*
-Write a method create that creates a linked-list of nodes whose values are the lengths of the unique strings in words when 
-considered in alphabetical order.
-*/
 import java.util.*;
 public class AlphaLength 
 {
