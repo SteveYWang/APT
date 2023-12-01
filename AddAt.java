@@ -2,6 +2,10 @@ public class AddAt
 {
     public ListNode addAt(ListNode list, ListNode toAdd, int index) 
     {    
+        if (toAdd == null) {
+            return list;
+        }
+        
         ListNode ptr = toAdd;
         while (ptr.next != null) {
             ptr = ptr.next;
