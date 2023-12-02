@@ -5,7 +5,7 @@ public class AddAt
         if (toAdd == null) {
             return list;
         }
-        
+
         ListNode ptr = toAdd;
         while (ptr.next != null) {
             ptr = ptr.next;
@@ -15,7 +15,6 @@ public class AddAt
             ptr.next = list;
             return toAdd;
         }
-
         ListNode res = list;
         ListNode node = list;
         for (int i = 0; i < index - 1; i++) {
@@ -26,6 +25,5 @@ public class AddAt
         first.next = toAdd;
         ptr.next = last;
         return res;
-
     }
 }
